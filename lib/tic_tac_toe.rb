@@ -37,7 +37,6 @@ class TicTacToe
     elsif @board == "X" || @board == "O"
       return true
     end
-
   end
 
 end
