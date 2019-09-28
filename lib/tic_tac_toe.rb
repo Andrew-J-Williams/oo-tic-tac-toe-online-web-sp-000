@@ -119,7 +119,7 @@ class TicTacToe
 
   def over?
 
-    if won?(board) || full?(board) #returns true if the board has a winning move or the board is full with no winning moves.
+    if won? || full?
       return true
     end
 
