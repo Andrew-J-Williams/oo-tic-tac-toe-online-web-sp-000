@@ -110,7 +110,7 @@ class TicTacToe
 
   def draw?
 
-    if full? && !won? 
+    if full? && !won?
       return true
     end
 
@@ -128,6 +128,14 @@ class TicTacToe
 
   def winner
 
+    winner = won? #First, we set the variable 'winner' equal to the array resulting from our 'won?' method (if a winning combo is found).
+    #We then jump into a conditional statement. If we have a winner, we want to check what character won the game: 'X' or 'O'.
+    if winner #First, let's say we had a diagonal winner ([0,5,8]). We can call any value from this array and set it equal to a variable.
+      winning_character = winner[1] #winning_character is set equal to the value of the called array position. In this case, we call the middle value of '5'.
+      return @board[winning_character] #then, we return the board position of the winning_character value, which could be read as 'board[5]'
+    else #if there are not winning combinations found, we return a value of 'nil'
+      nil
+    end
 
   end
 
