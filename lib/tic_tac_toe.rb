@@ -147,7 +147,7 @@ class TicTacToe
     end #The result of the loop will be a 'true' value for either 'over?' or 'draw?'
 
     # We then create a condition to output the results of the game to the user.
-    if won?(board) # If a user, either 'X' or 'O' won the game...
+    if won? # If a user, either 'X' or 'O' won the game...
       winner(board) == "X" || winner(board) == "O" #First, we check to see who the winning character was.
       puts "Congratulations #{winner(board)}!" #Once we determine if it was 'X' or 'O', we return an interpolated string with that character.
     elsif draw?(board) #If the game ended in a draw, we simply return the string below.
