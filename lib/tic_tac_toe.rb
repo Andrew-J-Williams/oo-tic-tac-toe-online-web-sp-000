@@ -101,7 +101,7 @@ class TicTacToe
 
   def full?
 
-    board.all? do |value| #The '#all?' goes through each value of the array to see if it meets the conditions required below.
+    @board.all? do |value| #The '#all?' goes through each value of the array to see if it meets the conditions required below.
       value == "X" || value == "O"
     end #If every value is equal to either "X" or "O", then we know the board is full and it is a draw. It will return true.
 
