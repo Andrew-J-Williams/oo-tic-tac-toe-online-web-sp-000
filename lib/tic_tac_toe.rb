@@ -75,7 +75,7 @@ class TicTacToe
       move(index,current_player)
       display_board
     else
-      turn
+      number = gets.to_i
     end
 
   end
