@@ -48,7 +48,9 @@ class TicTacToe
   def turn_count
     counter = 0
 
-    
+    @board.each do |turn|
+
+    end
 
 
   end
