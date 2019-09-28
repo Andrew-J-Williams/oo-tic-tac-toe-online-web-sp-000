@@ -67,7 +67,7 @@ class TicTacToe
 
   def turn
 
-    
+    number = gets.to_i
 
   end
 
