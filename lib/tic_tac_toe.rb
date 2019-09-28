@@ -69,14 +69,14 @@ class TicTacToe
 
     number = gets.to_i
     index = input_to_index(number)
-    valid = valid_move?)(number)
+    valid = valid_move?(number)
 
     if valid == true
       move(index,current_player)
       display_board
     else
       turn
-    end 
+    end
 
   end
 
