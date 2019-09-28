@@ -65,7 +65,7 @@ class TicTacToe
     end
   end
 
-  def turn(board)
+  def turn
 
     number = gets.to_i
     index = input_to_index(number)
@@ -75,7 +75,7 @@ class TicTacToe
       move(index,current_player)
       display_board
     else
-      turn(@board)
+      turn
     end
 
   end
