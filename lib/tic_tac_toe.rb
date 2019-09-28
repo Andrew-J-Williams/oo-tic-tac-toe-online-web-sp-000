@@ -27,7 +27,7 @@ class TicTacToe
     number.to_i - 1
   end
 
-  def move
+  def move()
     
   end
 
