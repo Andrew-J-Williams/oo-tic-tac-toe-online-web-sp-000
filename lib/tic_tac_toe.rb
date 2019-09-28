@@ -73,7 +73,7 @@ class TicTacToe
 
     valid = valid_move?)(number)
 
-    
+    if valid == true
 
   end
 
