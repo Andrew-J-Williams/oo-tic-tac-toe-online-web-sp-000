@@ -72,7 +72,8 @@ class TicTacToe
     valid = valid_move?)(number)
 
     if valid == true
-      move(index,current_player) 
+      move(index,current_player)
+       
 
   end
 
