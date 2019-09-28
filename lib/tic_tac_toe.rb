@@ -150,7 +150,7 @@ class TicTacToe
     if won? # If a user, either 'X' or 'O' won the game...
       winner == "X" || winner == "O" #First, we check to see who the winning character was.
       puts "Congratulations #{winner}!" #Once we determine if it was 'X' or 'O', we return an interpolated string with that character.
-    elsif draw?(board) #If the game ended in a draw, we simply return the string below.
+    elsif draw? #If the game ended in a draw, we simply return the string below.
       puts "Cat's Game!"
     end
 
