@@ -139,7 +139,8 @@ class TicTacToe
 
   end
 
-  
+
+  def play
 
 
 
