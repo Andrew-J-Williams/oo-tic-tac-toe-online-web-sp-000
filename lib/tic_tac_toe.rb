@@ -27,8 +27,8 @@ class TicTacToe
     number.to_i - 1
   end
 
-  def move(value)
-    @board[input_to_index] = value
+  def move(input, value)
+    @board[input] = value
   end
 
   def position_taken?
