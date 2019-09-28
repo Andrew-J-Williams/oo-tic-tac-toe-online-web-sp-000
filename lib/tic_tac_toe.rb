@@ -70,7 +70,7 @@ class TicTacToe
 
     user_input = gets.to_i
   	index = input_to_index(user_input)
-    
+
   	if valid_move?(index) == true && current_player == "X"
   			move(index, value = "X")
   			puts display_board
