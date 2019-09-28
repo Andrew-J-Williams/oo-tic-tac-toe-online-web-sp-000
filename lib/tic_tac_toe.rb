@@ -69,6 +69,8 @@ class TicTacToe
 
     number = gets.to_i
 
+    index = input_to_index(number)
+
   end
 
 
