@@ -68,12 +68,10 @@ class TicTacToe
   def turn
 
     number = gets.to_i
-
     index = input_to_index(number)
-
     valid = valid_move?)(number)
 
-    if valid == true
+    if valid == true 
 
   end
 
