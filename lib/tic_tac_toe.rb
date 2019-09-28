@@ -82,7 +82,7 @@ class TicTacToe
   		input = gets.to_i
   	else
   		puts "Please enter 1-9:"
-  		input = gets.chomp
+  		input = gets.to_i
   	end
   end
 
