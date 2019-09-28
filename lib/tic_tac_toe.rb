@@ -110,7 +110,7 @@ class TicTacToe
 
   def draw?
 
-    if full? && !won? #returns true if the board is full and there are no winning combinations.
+    if full? && !won? 
       return true
     end
 
